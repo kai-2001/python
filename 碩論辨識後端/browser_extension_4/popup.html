@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pose Detection Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 10px;
+        }
+        #poseData {
+            margin-top: 20px;
+        }
+        button {
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pose Detection</h1>
+    <button id="startBtn">Start Detection</button>
+    <button id="stopBtn">Stop Detection</button>
+    <div id="poseData">
+        <p><strong>Label:</strong> <span id="poseLabel">N/A</span></p>
+        <p><strong>Confidence:</strong> <span id="poseConfidence">N/A</span></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
+
